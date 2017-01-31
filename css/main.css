@@ -1,0 +1,18 @@
+#verifyForm label {
+    display: inline-block;
+    width: 100px;
+}
+.btn{
+	margin-left: 180px;
+}
+.error{
+	background: #fdd;
+}
+.errorEmpty{
+	color: red;
+}
+.success{
+	color: green;
+	font-size: 40px;
+	display: none;
+}

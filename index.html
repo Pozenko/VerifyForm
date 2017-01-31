@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
+	<script src="js/custom.js"></script>
+</head>
+<body>
+	<form id="verifyForm">
+		<p>
+			<label for="name">Name</label>
+			<input class="required onlyText" name="firstName" id="name">
+			<span class="error_empty">*</span>
+		</p>
+		<p>
+			<label for="lastName">Last Name</label>
+			<input class="required onlyText" name="lstName" id="lastName">
+			<span class="error_empty">*</span>
+		</p>
+		<p>
+			<label for="login">Login</label>
+			<input class="required" name="log" id="login" maxlength="16">
+			<span class="error_empty">*</span>
+		</p>
+		<p>
+			<label for="password">Password</label>
+			<input class="required pass" name="password" id="password" type="password">
+			<span class="error_empty">*</span>
+		</p>
+		<p>
+			<label for="password2">Password*</label>
+			<input class="required pass2" name="password2" id="password2" type="password"> 
+			<span class="error_empty">*</span>
+		</p>
+		<p>
+			<label for="email">Email</label>
+			<input class="required mail" name="mail" id="email">
+			<span class="error_empty">*</span>
+		</p>
+		<p>
+			<label for="phone">Phone</label>
+			<input class="required" name="phone" id="phone">
+			<span class="error_empty">*</span>
+		</p>
+		<input class="btn" type="submit" value="submit">
+	</form>
+	<span class="success"> Verify success!</span>
+</body>
+</html>
